@@ -1,0 +1,4 @@
+place_coupe = 4
+seat = int(input("ввести номер места:"))
+coupe = (seat - 1) // place_coupe + 1
+print(coupe, "ваше купе:")
