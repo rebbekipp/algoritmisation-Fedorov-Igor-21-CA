@@ -1,0 +1,5 @@
+nal = 0.13
+dohod = float(input("Введите свой доход:"))
+print(f"Общая сумма дохода: {dohod:.2f} руб.")
+print(f"СУмма налога: {nal * dohod:.2f} руб.")
+print(f"Сумма на руки: {dohod - dohod * nal:.2f} руб.")
