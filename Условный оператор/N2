@@ -1,0 +1,10 @@
+a = int(input("длина стороны 1:"))
+b = int(input("длина стороны 2:"))
+c = int(input("длина стороны 3:"))
+
+if a == b == c:
+    print("равносторонний")
+elif a == b and c != a and b:
+    print("равнобедренный")
+else:
+    print("разносторонний")
