@@ -1,1 +1,13 @@
+NALOG = 0.13
+def calculate_nal():
+    """Рассчитывает налог и доход после его вычета."""
+    income = float(input("Введите годовой доход (рубли): "))
 
+    sum_nal = income * NALOG
+    after_nal = income - sum_nal
+
+    print(f"Общий доход: {income:,.2f} рублей")
+    print(f"Сумма налога: {sum_nal:,.2f} рублей")
+    print(f"На руки: {after_nal:,.2f} рублей")
+
+calculate_nal()
