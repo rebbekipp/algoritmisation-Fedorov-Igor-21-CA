@@ -1,4 +1,4 @@
-def atm(summa):
+def bankomat(summa):
     """Рассчитывает количество купюр."""
     B5000 = summa // 5000
     summa %= 5000
@@ -25,4 +25,4 @@ def atm(summa):
     print(f"100 рублей: {B100}")
 
 summa = int(input("Введите сумму кратную 100:"))
-atm(summa)
+bankomat(summa)
