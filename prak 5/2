@@ -1,1 +1,9 @@
+def calculate_imt(weight, height):
+    """Рассчитывает индекс массы тела."""
+    return weight / (height * height)
 
+print("Введите вес (кг) и рост (в метрах) через пробел:")
+weight, height = map(float, input().split())
+
+imt = calculate_imt(weight, height)
+print(f"Ваш ИМТ: {imt:.1f}")
