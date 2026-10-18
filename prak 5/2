@@ -6,4 +6,4 @@ print("Введите вес (кг) и рост (в метрах) через п�
 weight, height = map(float, input().split())
 
 imt = calcul_imt(weight, height)
-print(f"Ваш Индекса Массы Тела: {imt:.1f}")
+print(f"Ваш индекса массы тела: {imt:.1f}")
