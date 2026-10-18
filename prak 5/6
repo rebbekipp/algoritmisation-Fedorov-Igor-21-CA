@@ -1,1 +1,28 @@
+def bankomat(summa):
+    """Рассчитывает количество купюр."""
+    B5000 = summa // 5000
+    summa %= 5000
 
+    B2000 = summa // 2000
+    summa %= 2000
+
+    B1000 = summa // 1000
+    summa %= 1000
+
+    B500 = summa // 500
+    summa %= 500
+
+    B200 = summa // 200
+    summa %= 200
+
+    B100 = summa // 100
+
+    print(f"5000 рублей: {B5000}")
+    print(f"2000 рублей: {B2000}")
+    print(f"1000 рублей: {B1000}")
+    print(f"500 рублей: {B500}")
+    print(f"200 рублей: {B200}")
+    print(f"100 рублей: {B100}")
+
+summa = int(input("Введите сумму кратную 100:"))
+bankomat(summa)
