@@ -7,4 +7,4 @@ def convert(usd):
 usd = float(input("Введите количесвто долларов: "))
 rub = convert(usd)
 
-print(f"Сумма в рублях: {rub:.2f}")
+print(f"В рублях: {rub:.2f}")
