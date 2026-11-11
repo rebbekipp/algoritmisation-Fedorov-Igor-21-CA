@@ -1,0 +1,4 @@
+stat = input("Введите статус заказа: pending, processing, shipped, delivered, cancelled")
+match stat:
+    case pending:
+        
