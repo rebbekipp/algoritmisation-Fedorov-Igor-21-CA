@@ -1,0 +1,27 @@
+num = int(input("Введите номер числа на рулетке"))
+if num == 0:
+    print("Зеленый")
+elif 1 <= num <= 10:
+    if num % 2 == 0:
+        print("Черный")
+    else:
+        print("Красный")
+elif 11 <= num <= 18:
+    if num % 2 == 0:
+        print("Красный")
+    else:
+        print("Черный")
+elif 19 <= num <= 28:
+    if num % 2 == 0:
+        print("Красный")
+    else:
+        print("Черный")
+elif 29 <= num <= 36:
+    if num % 2 == 0:
+        print("Красный")
+    else:
+        print("Черный")
+elif 0 >= num or num > 36:
+    print("Такого числа нет на рулетке")
+else:
+    print("Ошибка ввода")
